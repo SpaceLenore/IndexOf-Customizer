@@ -1,5 +1,5 @@
-# Customizer for Index Of pages
-This is a web application built on JavaScript to customize 'Index Of' pages
+# Customizer for 'Index Of' pages
+This is a web application built with JavaScript to customize 'Index Of' pages
 or general file serving pages. It is built to be used with the nginx JSON setting
 for Indexing.
 
