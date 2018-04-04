@@ -27,6 +27,10 @@
 
     getData(inpoint);
 
+    window.addEventListener("popstate", function () {
+        inpoint = "/" + location.pathname.substring(1);
+        getData(inpoint);
+    });
 
     function getData(datain) {
         fetch(api + datain)
@@ -41,12 +45,6 @@
                     backbt.className = "backbt";
                     backbt.textContent = "< Back";
                     backbt.addEventListener("click", function () {
-                        var url = inpoint;
-
-                        var newurl = url.substring(0, url.lastIndexOf('/'));
-                        inpoint = newurl.substring(0, newurl.lastIndexOf('/')) + "/";
-                        console.log("Loading: " + inpoint);
-                        getData(inpoint);
                         history.back();
                     });
                     window.mainContainer.appendChild(backbt);
