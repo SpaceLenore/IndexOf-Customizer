@@ -1,0 +1,61 @@
+html,
+body {
+    margin: 0;
+    padding: 0;
+    background: #535353;
+    color: #fff;
+    font-family: 'Muli', sans-serif;
+}
+
+.header {
+    margin: 0;
+    padding: 1rem;
+    background: #424242;
+    font-weight: 300;
+    font-size: 2rem;
+    box-shadow: 0 3px 5px #333;
+}
+.header p {
+    margin: 0;
+    padding: 0;
+}
+
+.container {
+    margin: 2rem;
+}
+
+.linkbox a {
+    margin: 0;
+    padding-left: 0.5rem;
+    color: #fff;
+}
+.linkbox i {
+    padding-left: 0.5rem;
+    top: 5px;
+    position: relative;
+}
+
+.linkbox {
+    padding: 0.8rem 0;
+    border-top: 1px solid #fff;
+    cursor: pointer;
+    transition: 0.1s;
+}
+
+.linkbox:hover{
+    background: rgba(200, 200, 200, 0.4);
+}
+
+.backbt {
+    border: 2px solid #fff;
+    background: none;
+    padding: 0.5rem 1rem;
+    margin-bottom: 1rem;
+    border-radius: 5px;
+    transition: 0.3s;
+    cursor: pointer;
+}
+
+.backbt:hover {
+    background: rgba(255, 255, 255, 0.3);
+}

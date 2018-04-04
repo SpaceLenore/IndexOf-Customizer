@@ -1,0 +1,91 @@
+html {
+    height: 100%;
+    margin: 0;
+    padding: 0;
+    background: url("/bg.jpg") no-repeat center center fixed;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+    font-family: 'Muli', sans-serif;
+}
+
+body {
+    margin: 0;
+    padding: 0;
+}
+
+.invis {
+    height: 100%;
+    width: 100%;
+    content:"";
+    top:0;
+    left:0;
+    right:0;
+    bottom:0;
+    position: fixed;
+    z-index: -1;
+    background-color: rgba(200, 200, 200, 0.8);
+}
+
+.header {
+    background: #614385;
+    background: -webkit-linear-gradient(to left, #516395, #614385);
+    background: linear-gradient(to left, #516395, #614385);
+    color: #fff;
+    margin: 0;
+    padding: 1rem;
+    font-weight: 300;
+    font-size: 2rem;
+    box-shadow: 0 3px 5px #333;
+}
+.header p {
+    margin: 0;
+    padding: 0;
+}
+
+.container {
+    margin: 2rem;
+}
+
+.linkbox a {
+    margin: 0;
+    padding-left: 0.5rem;
+    color: inherit;
+
+}
+.linkbox i {
+    padding-left: 0.5rem;
+    top: 5px;
+    position: relative;
+}
+
+.linkbox {
+    padding: 0.8rem 0;
+    border-top: 1px solid #000;
+    cursor: pointer;
+}
+
+.linkbox:hover{
+    /* background: rgba(200, 200, 200, 0.4); */
+    background: -webkit-linear-gradient(to left, rgba(81, 99, 149, 0.8), rgba(97, 67, 133, 0.8));
+    background: linear-gradient(to left, rgba(81, 99, 149, 0.8), rgba(97, 67, 133, 0.8));
+    color: #fff;
+}
+
+.backbt {
+    border: 2px solid #000;
+    color: #000;
+    background: none;
+    padding: 0.5rem 1rem;
+    margin-bottom: 1rem;
+    border-radius: 5px;
+    transition: 0.3s;
+    cursor: pointer;
+}
+
+.backbt:hover {
+    background: rgba(255, 255, 255, 0.3);
+    border: 2px solid #555;
+    color: #555;
+}
