@@ -84,7 +84,7 @@
                             history.pushState(inpoint, "this is a state", inpoint);
                             getData(inpoint);
                         } else {
-                            window.location = api + inpoint;
+                            window.location = api + inpoint + this.childNodes[1].textContent;
                         }
                     });
 
