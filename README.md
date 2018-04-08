@@ -9,10 +9,12 @@ for Indexing.
 * 2 stylesheets to choose from
 
 # Screenshots
- [Basic default style](demo-img/style-basic.png)
+![Basic default style](demo-img/style-basic.png)
+
 *Basic style, a simple dark theme*
 
-[Alternative fancy style](demo-img/style-alt.png)
+![Alternative fancy style](demo-img/style-alt.png)
+
 *Alternative style, lighther with background image and gradient*
 
 # Setup
