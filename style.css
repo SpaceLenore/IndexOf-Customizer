@@ -47,8 +47,9 @@ body {
 }
 
 .backbt {
-    border: 2px solid #fff;
+    color: #fff;
     background: none;
+    border: 2px solid #fff;
     padding: 0.5rem 1rem;
     margin-bottom: 1rem;
     border-radius: 5px;

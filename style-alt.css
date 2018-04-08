@@ -47,10 +47,11 @@ body {
 
 .container {
     margin: 2rem;
+    color: #444;
 }
 
 .linkbox a {
-    margin: 0;
+    margin: 0 0 1rem 0;
     padding-left: 0.5rem;
     color: inherit;
 
@@ -62,13 +63,16 @@ body {
 }
 
 .linkbox {
+    /* margin-bottom: 1rem; */
     padding: 0.8rem 0;
-    border-top: 1px solid #fff;
+    border-top: 1px solid #888;
+    background: rgba(255, 255, 255, 0.5);
     cursor: pointer;
+    transition: 0.15s;
 }
 
 .linkbox:hover{
-    background: rgba(200, 200, 200, 0.4);
+    background: rgba(150, 150, 150, 0.8);
     /* background: -webkit-linear-gradient(to left, rgba(81, 99, 149, 0.8), rgba(97, 67, 133, 0.8)); */
     /* background: linear-gradient(to left, rgba(81, 99, 149, 0.8), rgba(97, 67, 133, 0.8)); */
     color: #fff;
